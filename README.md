@@ -1,6 +1,6 @@
 # download_site
 Gets site locally.
-
-Should be able to process small sites: 
- - download html, images
- - fix local urls to be able browse offline
+ - downloads html
+ - fixes local urls to be able to browse offline
+ 
+(unfinished) - should get images
