@@ -68,7 +68,7 @@ def save_page(page, url):
         subfolder = main_subfolder
 
     fullpath = os.path.join(current_folder, subfolder, filename)
-    # if not os.path.exists(subfolder):
+    
     if not os.path.exists(subfolder):
         os.mkdir(subfolder)
     with open(fullpath, 'w+') as f:
@@ -80,5 +80,5 @@ main()
 
 # subfolders for main pages and child ones
 # def localize()  --  anderson.kiev.ua/index.php?lang=uk
-# vystupy links ne rabotayut
+# "vystupy" links doesn't work
 # dwld images
